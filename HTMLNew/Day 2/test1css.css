@@ -1,0 +1,71 @@
+/*universal selector*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*element selector*/
+
+body{
+    /*backgroung.image:url();*/
+     border-top:rgb(7,7,7);
+     border-style:solid ;
+     border-color: rgb(173,121,131);
+     border-width: 3px;
+     background-color:rgb(133, 201, 219);
+
+}
+
+div{
+    width:1080px;
+    height: 60px;
+    border: 10px;
+    padding: 50px;
+    margin: 10px;
+    border-style: groove;
+    border-color:black;
+
+}
+#first{
+    border-style: dashed;
+    
+}
+#second{
+    border-style: double;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Noto Serif JP', serif;
+}
+#third{
+    border-style:dashed;
+}
+.p1{
+    font-size:medium;
+    background-color: white;
+    color: black;
+}
+#p-1{
+    font-style: oblique;
+    background-color:white;
+    
+}
+#p-2{
+    font-style: italic ;
+    background-color:rgb(221, 221, 131);
+}
+#p-3{
+    font-style: oblique;
+}
+span{
+    color:red;
+}
+#first span{
+    color:blue;
+}
+#second span{
+    color:brown;
+}
+#third span{
+    color: aqua;
+}

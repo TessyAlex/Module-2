@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: pink;" id="name" class="friend">Hey Tessy, Everythings gonna be alright!!</h1>
+    <script>
+        console.log('testing console dev tools');
+        console.error('......error log');
+        console.warn('....warning');
+        console.table(
+            [
+            {"name":"Tessy Alex", "age":22},
+            {"name":"Titus Alex", "age":19}
+    ]);
+    console.group('groupInfo');
+    console.log('Tessy');
+    console.log('Titus');
+    console.log('Bailey');
+    console.groupEnd('groupInfo');
+    console.log(document);
+    console.info(document.URL);
+    console.dir(document);
+    localStorage.setItem("topic","Devtool after lunch");
+    console.log(localStorage.getItem('topic'));
+    document.cookie="url,https://secureurl.com";
+    </script>
+</body>
+</html>
